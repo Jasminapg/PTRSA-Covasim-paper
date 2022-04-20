@@ -1,12 +1,12 @@
-Modelling the transmisson and spread of Covid-19 in the UK
+Statistical and agent-based modelling of different SARS-CoV-2 variants in England
 =======
 
 Background
 =============
-This repository contains a collection of code and data used to model the transmission and spread of COVID-19 in the UK, using the Covasim model for the paper:
+This repository contains a collection of code and data using the Covasim model for the paper:
 
-1. **Determining the optimal strategy for reopening schools, the impact of test and trace interventions, and the risk of occurrence of a second COVID-19 epidemic wave in the UK: a modelling study**. Panovska-Griffiths J, Kerr CC, Stuart RM, Mistry D, Klein DJ, Viner R, Bonnell C (2020-08-03). *Lancet Child and Adolescent Health* S2352-4642(20) 30250-9. doi: https://doi.org/10.1016/S2352-4642(20)30250-9
-
+1. **Statistical and agent-based modelling of the transmissibility of different SARS-CoV-2 variants in England and impact of different interventions**. J. Panovska-Griffiths, B. Swallow, R. Hinch, J. Cohen, K. Rosenfeld, R. M. Stuart, L. Ferretti, F. Di Lauro, C. Wymant, A. Izzo, W. Waites, R. Viner, C. Bonell, The COVID-19 Genomics UK (COG-UK) consortium, C. Fraser, D. Klein, C. C. Kerr
+medRxiv 2021.12.30.21267090; doi: https://doi.org/10.1101/2021.12.30.21267090
 
 About Covasim
 =============
