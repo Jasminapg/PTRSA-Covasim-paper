@@ -15,18 +15,10 @@ import pandas as pd
 T = sc.tic()
 # Load files and extract data
 #scenarios 1,2 and 3 for Figure 5 and scenarios 2 and 4 for Figure 6 of PTRSA paper
-msim_details = {#'Scenario 1: no Delta, Vaccine and June Stage 4 opening': 'results_Vac/uk_sim_calibration_2Nov_openJune_nodelta.obj',
-                #'Scenario 2: Delta, Vaccine and June Stage 4 opening': 'results_Vac/uk_sim_calibration_2Nov_openJune.obj',
-                #'Scenario 3: Delta, Vaccine and July Stage 4 opening': 'results_Vac/uk_sim_calibration_2Nov.obj'}
-                 #'Scenario 4: Delta, No Vaccine and June Stage 4 opening': 'results_Vac/uk_sim_calibration_2Nov_openJune_delta_novac.obj'}
-              
-                #adding data for July and August to validate predictions
-                'Validation 1: Calibrated to June 20, 2021': 'results_Vac/uk_sim_calibration_2Nov.obj',
-                'Validation 2: Calibrated to August 31, 2021': 'results_Vac/uk_sim_test_20Nov.obj'}
-               
-                #'Scenario 1 no delta and June reopening': 'results_Vac/uk_sim_calibration_Julyreopeningnodelta.obj',
-                #'Scenario 2 with Delta and June reopning': 'results_Vac/uk_sim_calibration_Junereopening.obj',
-                #'Scenario 2 with Delta and July reopning': 'results_Vac/uk_sim_calibration_Julyreopening.obj'}
+msim_details = {'Scenario 1: no Delta, Vaccine and June Stage 4 opening': 'results_Vac/uk_sim_calibration_2Nov_openJune_nodelta.obj',
+                'Scenario 2: Delta, Vaccine and June Stage 4 opening': 'results_Vac/uk_sim_calibration_2Nov_openJune.obj',
+                'Scenario 3: Delta, Vaccine and July Stage 4 opening': 'results_Vac/uk_sim_calibration_2Nov.obj'}
+                'Scenario 4: Delta, No Vaccine and June Stage 4 opening': 'results_Vac/uk_sim_calibration_2Nov_openJune_delta_novac.obj'}
 labels = msim_details.keys()
 msims = sc.odict()
 plotkeys = ['new_diagnoses', 'r_eff', 'new_severe', 'new_deaths']
@@ -193,6 +185,6 @@ sc.commaticks()
 pl.legend(frameon=False)
 sc.boxoff()
 
-cv.savefig('figs_Vac/PTRSAFig5-TESTINGrun.png')
+cv.savefig('figs_Vac/PTRSAFig5.png')
 
 
