@@ -15,7 +15,7 @@ Covasim is a stochastic agent-based simulator for performing COVID-19 analyses. 
 
 The scientific paper describing Covasim is available at http://paper.covasim.org. The recommended citation is:
 
-    **Covasim: an agent-based model of COVID-19 dynamics and interventions**. Kerr CC, Stuart RM, Mistry D, Abeysuriya RG, Rosenfeld R, Hart G, Núñez RC, Cohen JA, Selvaraj P, Hagedorn B, George L, Jastrzębski M, Izzo A, Fowler G, Palmer A, Delport D, Scott N, Kelly S, Bennette C, Wagner B, Chang S, Oron AP, Wenger E, Panovska-Griffiths J, Famulare M, Klein DJ (under review; posted 2020-05-15). *medRxiv* 2020.05.10.20097469; doi: https://doi.org/10.1101/2020.05.10.20097469.
+**Covasim: an agent-based model of COVID-19 dynamics and interventions**. Kerr CC, Stuart RM, Mistry D, Abeysuriya RG, Rosenfeld R, Hart G, Núñez RC, Cohen JA, Selvaraj P, Hagedorn B, George L, Jastrzębski M, Izzo A, Fowler G, Palmer A, Delport D, Scott N, Kelly S, Bennette C, Wagner B, Chang S, Oron AP, Wenger E, Panovska-Griffiths J, Famulare M, Klein DJ PLoS Comput Biol. 2021 Jul 26;17(7):e1009149. doi: 10.1371/journal.pcbi.1009149.
 
 The Covasim webapp is available at http://app.covasim.org, and the repository for it is available `here <https://github.com/institutefordiseasemodeling/covasim_webapp>`__.
 
